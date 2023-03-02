@@ -1,0 +1,385 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section{
+    width: 100%;
+    height: 37rem;
+    background-color: #363543;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+h2 i{
+    color: #ffb621;
+
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.icon{
+    display: flex;
+    position: absolute;
+    list-style-type: none;
+    left: 70%; 
+    
+}
+.icon a{
+    color: white;
+    padding: 30%;
+}
+.content{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    
+}
+.content abbr{
+    color: #8d8c9a;
+}
+h1 b{
+    color: #8d8c9a;
+}
+h1 span{
+            padding-bottom: 15px;
+            border-bottom-style: solid ;
+            border-bottom-width: 5.1px;
+            width: fit-content;
+            border-bottom-color:#ffb621 ;
+        
+}
+.heading h1{
+    font-weight: 10px;
+    font-size: 50px;
+    
+}
+.heading p{
+    font-size: 18px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-right: 2%;
+}
+
+.circle{
+    background-color: #2d2d39;
+    position: absolute;
+    height: 80vh;
+    width: 40%;
+    border-radius: 50%;
+    top: 11%;
+    right: 30%;
+}
+.circle img{
+    position: absolute;
+    padding-left: auto;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+.content-2{
+    position: absolute;
+    top: 27%;
+    left: 67%;
+}
+.content-2 p{
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-2 span{
+    font-family: sans-serif;
+}
+p a{
+    font-weight: 100%;
+    font-size: 18px;
+    color: #ffb621;
+    text-decoration: none;
+}
+ul a i{ 
+    position: relative;
+    background-color: #4c4b5e;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    height: 15px;
+    right: 20%;
+    color: #ffb621;
+}
+.icons{
+    position: absolute;
+    bottom: -20px;
+    height:7%;
+    width: 87%;
+    margin: 0%;
+    padding: 20px;
+    border:1px solid #282834;
+    right: 50px;
+    box-shadow: 0px -2px 2px #2d2d39;
+	background:  rgb(65, 62, 81);
+    right: 50px;
+    z-index: 1;
+}
+.button2 {
+    
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+    width: 100%;
+
+}
+.button img{
+    width: 100px;
+    background-size: 10%;
+    background-color: #2d2d39;
+}
+.footer{ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #282834;
+}
+.text h3 {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+.text p{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 13%;
+}
+.about-project{
+    display: flex;
+    align-items: end;
+    height: 74%;
+    color: white;
+    width: 0%;
+}
+.about-project h6{
+    position: absolute;
+    left: 13%;
+    font-size: 15px;
+}
+.about-project h2{
+    position: absolute;
+    left: 13%;
+    top: 73%;
+    font-size: 15px;
+}
+.about-project h3{
+    position: absolute;
+    left: 28%;
+    top: 57%;
+    font-size: 15px;
+}
+.about-project h4{
+    position: absolute;
+    left: 28%;
+    top: 72%;
+    font-size: 15px;
+}
+.about-project span{
+    color: #ffb621;
+    font-size: 30px;
+}
+.project-img{
+    background-color: #282834;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75%;
+    column-width: 10px;
+}
+.project-img img{
+    width: 150px;
+    height: 150px;
+}
+.position1{
+    position: absolute;
+    top: 19%;
+    left: 55%;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+}
+.hr::after{
+    content:'';
+    position: absolute;
+    margin: auto;
+    width: 30%;
+    height: 2px;
+    background: #8d8c9a;
+    bottom: 55.5%;
+    padding-right: 20px;
+    left: 55%;
+    box-shadow: 0px -1px 2px #8d8c9a;
+    border-width: 0%;
+
+
+}
+.position1 h1{
+    display: inline-block;
+    position: absolute;
+    font-size: 30px;
+    top: 12%;
+    left: 106%;
+    width: 200px;
+    color: white;
+}
+.position1 a{
+    position: relative;
+    left: 35vh;
+    bottom: 35px;
+    color: #ffb621;
+}
+
+.position1 h1 p{
+    font-size: 10px;
+}
+.position2{
+    position: absolute;
+    top: 46%;
+    left: 55%;
+    display: flex;
+}
+.hr2::after{
+    content:'';
+    position: absolute;
+    margin: auto;
+    width: 30%;
+    height: 2px;
+    background: #8d8c9a;
+    bottom: 28.5%;
+    padding-right: 20px;
+    left: 55%;
+    box-shadow: 0px -1px 2px #8d8c9a;
+
+
+}
+.position2 h2{
+    display: inline-block;
+    position: absolute;
+    font-size: 22px;
+    top: 12%;
+    left: 106%;
+    width: 200px;
+    color: white;
+    
+}
+.position2 i{
+    color: #ffb621;
+}
+.position2 a{
+    position: relative;
+    left: 112%;
+    color: #ffb621;
+}
+.position2 p{
+    font-size: 12px;
+}
+.position3{
+    position: absolute;
+    top: 73%;
+    left: 55%;
+    display: flex;
+}
+.hr3::after{
+    content:'';
+    position: absolute;
+    margin: auto;
+    width: 30%;
+    height: 2px;
+    background: #8d8c9a;
+    bottom: 1.5%;
+    padding-right: 20px;
+    left: 55%;
+    box-shadow: 0px -1px 2px #8d8c9a;
+
+
+}
+.position3 h3{
+    display: inline-block;
+    position: absolute;
+    font-size: 22px;
+    top: 12%;
+    left: 106%;
+    width: 200px;
+    color: white;
+}
+.position3 h3 p{
+    font-size: 12px;
+}
+.position3 a{
+    position: relative;
+    left: 112%;
+    bottom: 20px;
+    color: #ffb621;
+}
+.boxs{
+    width: 76%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.col1{
+    background-color: #363543;
+    position: relative;
+    width: 30%;
+    height: 280px;
+    box-sizing: border-box;
+
+    font-size: 10px;
+}
+.col1 img{
+    position: relative;
+    right:40%;
+    width: 40px;
+    height: 40px;
+}
+.col1 h1{
+    color: white;
+    font-size: 28px;
+
+}
+.col1 p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
